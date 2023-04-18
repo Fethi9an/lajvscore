@@ -3,38 +3,36 @@ import styles from "./Navbar.module.css"
 export default function Navbar() {
   return (
     <nav className={styles.nav}>
-      <ul>
-        <li>
+        <ui>
           <Link href="/">
             Home
           </Link>
-        </li>
-        <li>
+        </ui>
+        <ul>
           <Link href="/leagues/premierleague">
             Premier League
           </Link>
-        </li>
-        <li>
+        </ul>
+        <ul>
           <Link href="/leagues/la-liga">
             La Liga
           </Link>
-        </li>
-        <li>
+        </ul>
+        <ul>
           <Link href="/leagues/bundesliga">
             Bundesliga
           </Link>
-        </li>
-        <li>
+        </ul>
+        <ul>
           <Link href="/leagues/serie-a">
             Serie A
           </Link>
-        </li>
-        <li>
+        </ul>
+        <ul>
           <Link href="/leagues/ligue-1">
             Ligue 1
           </Link>
-        </li>
-      </ul>
+        </ul>
     </nav>
   );
 }

@@ -12,7 +12,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.logoContainer}>
-          <Link href="/leagues">
+          <Link href="/leagues/premierleague">
             <img src="Soccerball.png" alt="Soccerball" className={styles.logo} />
           </Link>
         </div>

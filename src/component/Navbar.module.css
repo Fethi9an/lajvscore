@@ -1,25 +1,13 @@
+/* Navbar.module.css */
+
 .nav {
-   /*  background-color: #3c3c3c;
-    height: 50px; */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    font-family: 'Courier New', Courier, monospace;
   }
   
   .ul {
     list-style: none;
     display: flex;
-    gap: 20px;
-    margin: 0;
-    padding: 0;
   }
-  
-  .li {
-    color: #ffffff;
-    font-size: 18px;
-  }
-  
-  .li:hover {
-    color: #e6e6e6;
-  }
-  
