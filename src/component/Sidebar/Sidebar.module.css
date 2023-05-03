@@ -1,0 +1,35 @@
+.container {
+    position: absolute;
+    width: 200px;
+    height: 100%;
+    background-color: gre;
+    z-index: 1;
+    transition: left 0.5s ease;
+  }
+  
+  .open {
+    left: 0;
+  }
+  
+  .container.open {
+    left: 0;
+  }
+  
+  .container.closed {
+    left: -200px;
+  }
+  
+  .sidebarToggle {
+
+    background-color:orange;
+    color:black;
+    font-size: 20px;
+    border: none;
+    border-radius: 0 50% 50% 0;
+    
+  }
+  
+  .closed {
+    left: -200px;
+  }
+  

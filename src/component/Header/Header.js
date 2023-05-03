@@ -5,7 +5,7 @@ export default function Header() {
     <header className={styles.header}>
       <div className={styles.logoContainer}>
         <img className={styles.logo} src="/soccer-ball.png" alt="Soccer ball" />
-        <h1 className={styles.title}>lajvscore</h1>
+        <h1 className={styles.title}>LajvScore</h1>
       </div>
       <p className={styles.subtitle}>Your go-to source for live soccer scores and updates.</p>
     </header>
